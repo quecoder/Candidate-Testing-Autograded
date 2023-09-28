@@ -51,8 +51,15 @@ function gradeQuiz(candidateAnswers) {
 
 let grade = (candidateCorrectAnswers / questions.length * 100);  //TODO 3.2 use this variable to calculate the candidates score.
 console.log(grade);
+
+if (grade => 80) {
+  console.log("Passed");
+ }
+
    return grade;
    
+
+
 }
 
 
